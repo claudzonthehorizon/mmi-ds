@@ -1,0 +1,90 @@
+#brandLogoNav {
+    max-height:50px;
+    display:inline-block;
+}
+.navbar-default {
+    background:#fff;
+    padding:5px 0;
+}
+.navbar-default .navbar-nav>li>a {
+    color:#1e1e1e;
+}
+#estimate {
+    background:#175ca5;
+}
+#welcome {
+    font-size:3em;
+    padding:10px 0 20px 0;
+    color:#fff;
+}
+#services {
+    padding-bottom:40px;
+}
+
+.mainJumbotron {
+    border-bottom:1px solid #999;
+    overflow-none;
+    background: url('../images/gardenPanoFaded2.png') no-repeat top center;
+    height:550px;
+}
+.jumbotron-fluid {
+    border-bottom:1px solid #999;
+    overflow-none;
+}
+.jumbotron-fluid .container {
+    width:100%;
+}
+.form-group .form-control {
+    color:#1e1e1e;
+}
+.btn {
+    border-radius:0px;
+    border:none;
+}
+.btnSubmit {
+    background:#ccc;
+    opacity: 0.9;
+    filter: alpha(opacity=90); /* For IE8 and earlier */
+}
+.btnSubmit:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+.btnService {
+    background:#175ca5;
+    color:#fff;
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+.btnService:hover {
+    opacity: 0.9;
+    filter: alpha(opacity=90); /* For IE8 and earlier */
+}
+h1  {
+    color:#175ca5;
+}
+h1.indexTitle  {
+    color:#fff;
+    float:right;
+    font-size: 3.5em;
+}
+.cardImg {
+    border: solid 1px #ccc!important;
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+.cardImg:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+.navbar-default {
+    border-bottom: solid 1px #999;
+}
+.formControlAsBG {
+    height:20%;
+}
+.form-control::-webkit-input-placeholder { color: #1e1e1e; }
+.form-control:-moz-placeholder { color: #1e1e1e; }
+.form-control::-moz-placeholder { color: #1e1e1e; }
+.form-control:-ms-input-placeholder { color: #1e1e1e; }
+
