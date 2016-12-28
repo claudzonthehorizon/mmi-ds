@@ -68,11 +68,13 @@ h1#indexTitle  {
     color:#fff;
     float:right;
     font-size: 3.5em;
+    display:block;
 }
 #indexText p {
     color:#fff;
     float:right;
     font-size:3.5em;
+    display:block;
 }
 #indexPhone {
     font-size:5em;
