@@ -13,6 +13,7 @@
 }
 #estimate {
     background:#175ca5;
+    padding-bottom:15px;
 }
 #welcome {
     font-size:3em;
@@ -35,6 +36,9 @@
 }
 .jumbotron-fluid .container {
     width:100%;
+}
+.noPadding {
+    padding:0;
 }
 .form-group .form-control {
     color:#1e1e1e;
@@ -70,11 +74,15 @@ h1.indexTitle  {
     color:#fff;
     float:right;
     font-size: 3.5em;
-}
-.indexText {
     color:#fff;
-    float:right;
-    font-size:3.5em;
+}
+
+.indexPhone {
+    font-size:1.5em;
+    line-height:50px;
+    padding-right:50px;
+    color:#175ca5;
+    display:inline-block;
 }
 .cardImg {
     border: solid 1px #ccc!important;
@@ -89,7 +97,15 @@ h1.indexTitle  {
     border-bottom: solid 1px #999;
 }
 .formControlAsBG {
-    height:20%;
+    background-color:#fff;
+    display:block;
+    width:100%;
+    padding:6px 12px;
+    line-height:1.42857143;
+    border:1px solid #ccc;
+    border-radius:4px;
+    transition:border-color ease-in-out.15s, box-shadow ease-in-out.15s;
+    margin:0;
 }
 .form-control::-webkit-input-placeholder { color: #1e1e1e; }
 .form-control:-moz-placeholder { color: #1e1e1e; }
@@ -104,10 +120,11 @@ input[type=checkbox] + label:before {
   display: inline-block;
 }
 
-input[type=checkbox] + label:before { content: "\f096"; } /* unchecked icon */
+input[type=checkbox] + label:before { content: "\f096"; color:#175ca5; font-weight:bold; font-size:1.3em; vertical-align:middle;} /* unchecked icon */
 input[type=checkbox] + label:before { letter-spacing: 10px; } /* space between checkbox and label */
 
-input[type=checkbox]:checked + label:before { content: "\f046"; } /* checked icon */
-input[type=checkbox]:checked + label:before { letter-spacing: 5px; } /* allow space for check mark */
+input[type=checkbox]:checked + label:before { content: "\f046"; color:#175ca5; font-weight:bold; font-size:1.3em; vertical-align: middle;} /* checked icon */
+input[type=checkbox]:checked + label:before { letter-spacing: 7.5px; } /* allow space for check mark */
+input[type=checkbox]:checked + label { color:#175ca5; font-weight:bold; }
 
 /* ********************************************************************************************* */
