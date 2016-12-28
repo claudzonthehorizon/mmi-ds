@@ -69,6 +69,11 @@ h1.indexTitle  {
     float:right;
     font-size: 3.5em;
 }
+.indexText {
+    color:#fff;
+    float:right;
+    font-size:3.5em;
+}
 .cardImg {
     border: solid 1px #ccc!important;
     opacity: 1.0;
@@ -88,4 +93,3 @@ h1.indexTitle  {
 .form-control:-moz-placeholder { color: #1e1e1e; }
 .form-control::-moz-placeholder { color: #1e1e1e; }
 .form-control:-ms-input-placeholder { color: #1e1e1e; }
-
