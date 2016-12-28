@@ -76,9 +76,7 @@ h1#indexTitle  {
     font-size:3.5em;
     display:block;
 }
-#indexPhone {
-    font-size:5em;
-}
+
 .cardImg {
     border: solid 1px #ccc!important;
     opacity: 1.0;
