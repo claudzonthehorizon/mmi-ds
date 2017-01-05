@@ -54,6 +54,9 @@
     .btnGiftCard {
         margin-top:30px;
     }
+    #giftCards input[type=image] {
+        margin:20px 20px 0 0;
+    }
 }
 @media (max-width: 767px) {
     h1 {
@@ -78,4 +81,7 @@
     #quote form span {
         font-size:1.3em;
     }  
+    #giftCards input[type=image] {
+        margin:20px 20px 0 0;
+    }
 }
