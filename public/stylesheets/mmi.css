@@ -237,11 +237,10 @@ p {
     transition:border-color ease-in-out.15s, box-shadow ease-in-out.15s;
     margin:0;
 }
-.form-control::-webkit-input-placeholder, 
-.form-control:-moz-placeholder, 
-.form-control::-moz-placeholder { color: #1e1e1e; }, 
+.form-control::-webkit-input-placeholder { color: #1e1e1e; } 
+.form-control:-moz-placeholder { color: #1e1e1e; } 
+.form-control::-moz-placeholder { color: #1e1e1e; }
 .form-control:-ms-input-placeholder { color: #1e1e1e; }
- { color: #1e1e1e; }
 
 
 /* Custom Checkboxes */
