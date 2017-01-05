@@ -31,7 +31,7 @@
         font-size:1.2em;
     }
     #quote form span {
-        font-size:1em;
+        font-size:0.9em;
     }
 }
 @media (max-width: 767px) {
@@ -52,6 +52,6 @@
         display:none;
     } 
     #quote form span {
-        font-size:1em;
+        font-size:0.9em;
     }  
 }
