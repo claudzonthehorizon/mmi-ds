@@ -63,6 +63,9 @@
     .contactPhone {
         display:none;
     } 
+    .contactOther {
+        font-size:1.5em;
+    }
     #quote form span {
         font-size:1.3em;
     }  
