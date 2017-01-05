@@ -274,7 +274,7 @@ input[type=checkbox]:checked + label { color:#3d805f; font-weight:bold; }
     margin-bottom:20px;
 }
 .giftCard {
-    max-width:350px;
+    max-width:530px;
 }
 .addToCart {
     background-image: https://www.paypalobjects.com/webstatic/en_US/i/btn/png/btn_addtocart_120x26.png;
