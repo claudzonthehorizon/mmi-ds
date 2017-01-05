@@ -31,9 +31,6 @@
     #giftCards input[type=image] {
         margin:20px 20px 0 0;
     }
-    .giftCard {
-        max-width:530px;
-    }
 }
 @media only screen and (min-width : 768px) and (max-width: 768px) { /* iPad Portrait specific */
     .navbar-default .navbar-nav>li>a {
@@ -88,8 +85,9 @@
     #giftCards input[type=image] {
         margin:20px 20px 0 0;
     }
-    .giftCard {
-        max-width:530px;
-    }
+    .giftCardContainer {
+        float:left; 
+        width:50%;
+    {
 }
 }
