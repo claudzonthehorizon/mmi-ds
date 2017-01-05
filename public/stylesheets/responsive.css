@@ -8,6 +8,9 @@
     .contactPhone div {
         margin:25px 0;
     }
+    #quote form span {
+        font-size:1.4em;
+    }
 }
 @media only screen and (max-width : 979px) {
     .contactPhone {
