@@ -9,7 +9,7 @@
         margin:25px 0;
     }
     #quote form span {
-        font-size:1em;
+        font-size:1.3em;
     }
 }
 @media only screen and (max-width : 979px) {
@@ -17,7 +17,7 @@
         font-size:1.4em;
     }
     #quote form span {
-        font-size:0.9em;
+        font-size:1.3em;
     }
 }
 @media only screen and (min-width : 768px) and (max-width: 768px) { /* iPad Portrait specific */
@@ -31,7 +31,7 @@
         font-size:1em;
     }
     #quote form span {
-        font-size:1em;
+        font-size:1.3em;
     }
 }
 @media (max-width: 767px) {
@@ -52,6 +52,6 @@
         display:none;
     } 
     #quote form span {
-        font-size:1em;
+        font-size:1.3em;
     }  
 }
