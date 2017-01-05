@@ -38,6 +38,7 @@
     }
     .btnGiftCard {
         width:33.33%;
+        margin-top:30px;
     }
 }
 @media (max-width: 767px) {
