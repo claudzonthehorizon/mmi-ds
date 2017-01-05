@@ -36,6 +36,9 @@
     #quote form span {
         font-size:1.3em;
     }
+    .btnGiftCard {
+        width:33.33%;
+    }
 }
 @media (max-width: 767px) {
     h1 {
