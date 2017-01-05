@@ -33,6 +33,9 @@
     .contactOther {
         width:66.66%;
     }
+    .contactOther .mmiLogo {
+        display:none;
+    }
     #quote form span {
         font-size:1.3em;
     }
