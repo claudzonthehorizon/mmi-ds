@@ -48,6 +48,9 @@
     .btnGiftCard {
         margin-top:30px;
     }
+    #giftCards input[type=image] {
+    margin:20px 110px 0 0;
+    }
 }
 @media (max-width: 767px) {
     h1 {
