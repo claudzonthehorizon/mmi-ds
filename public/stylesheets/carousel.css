@@ -1,0 +1,76 @@
+/* CUSTOMIZE THE CAROUSEL
+    -------------------------------------------------- */
+
+.carousel {
+    margin-bottom:10px;
+}
+.carousel-caption {
+    background-color: rgba(23, 92, 165, 0.7);
+    bottom:0px;
+    padding: 20px 20px;
+    right:20%;
+    left:15%;
+    max-width: 700px
+}
+.carousel-caption h1,
+.carousel-caption p {
+    color: #fff;
+    text-shadow: 0 1px 1px rgba(0,0,0,.4);
+    margin:0px;
+    line-height: 1.25em;
+}
+.carousel-caption h1 {
+    font-size: 2.5em;
+    font-weight: 500;
+}
+.carousel-caption p {
+    font-size: 21px;
+    font-weight:300;
+}
+.carousel-caption .btnService {
+    border:1px solid rgba(255,255,255,.7);
+    margin:10px 5px 0 5px;
+}
+.carousel-indicators {
+    bottom:-5px;
+    display:none;
+}
+.mowingCaption.carousel-caption {
+    background-color: rgba(188, 93, 36, 0.7);
+}
+.gardeningCaption.carousel-caption {
+    background-color: rgba(61, 128, 95, 0.7);
+}
+
+
+/* RESPONSIVE CSS
+    -------------------------------------------------- */
+
+@media (max-width: 979px) {
+    .carousel-caption h1 {
+        font-size: 2.2em;
+    }
+    .carousel-caption p {
+        font-size: 1.2em;
+    }
+}
+@media (max-width: 767px) {
+    .carousel-caption {
+        background-color: rgba(23, 92, 165, 0.7);
+    }
+    .carousel-caption h1 {
+        font-size: 1.4em;
+    }
+    .carousel-caption p {
+        display:none;
+    }
+}
+@media (max-width: 480px) {
+    .carousel-caption {
+        background-color: transparent;
+    }
+    .carousel-caption h1,
+    .carousel-caption p {
+        display:none;
+    }
+}

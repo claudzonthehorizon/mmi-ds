@@ -9,7 +9,11 @@
     
     <title>MMI Domestic Services</title>
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text.css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="public/stylesheets/mmi.css">
+    <link rel="stylesheet" type="text/css" href="public/stylesheets/responsive.css">
+    <link rel="stylesheet" type="text/css" href="public/stylesheets/carousel.css">
+    <!-- <link rel="stylesheet" type="text/css" href="public/stylesheets/carousel.css"> -->
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     
@@ -23,58 +27,142 @@
   <body>        
      <nav class="navbar-default">
         <div class="container-fluid">
+          <div>
+              <a href="index.html"><img id="brandLogoNav" class="img-responsive" src="public/images/mmi-logo-horizontal.png"></a>
+          </div>
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#hamburger" aria-expanded="false">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-    <a href="index.html"><img id="brandLogoNav" class="img-responsive" src="public/images/mmi-logo.png"></a>
-    <p class="indexPhone">0466 775 053</p>    
           </div>
           <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <div class="collapse navbar-collapse" id="hamburger">
             <ul class="nav navbar-nav">
-              <li><a href="cleaning.html">Cleaning</a></li>
-              <li><a href="mowing.html">Mowing</a></li>
-              <li><a href="gardening.html">Gardening</a></li>
+              <li class="cleaning"><a href="cleaning.html">Cleaning</a></li>
+              <li class="mowing"><a href="mowing.html">Mowing</a></li>
+              <li class="gardening"><a href="gardening.html">Gardening</a></li>
             </ul>
+            
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="aboutus.html">About us</a></li>
+              <li><a href="theteam.html">Meet the team</a></li>
               <li><a href="contactus.html">Contact us</a></li>
             </ul>
           </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+          
 
         </div><!-- /.container-fluid -->
       </nav>
 
-    <div class="jumbotron-fluid img-responsive mainJumbotron">
-      <div id="slider" class="container">
-          <h1 class="indexTitle">Welcome to MMI Domestic Services!</h1>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel"> 
+  <!-- Indicators -->
+  
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="item active"> <img src="public/images/cleaningCarousel.jpg" style="width:100%" alt="First slide">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>Cleaning | Mowing | Gardening</h1>
+          <p>We provide a complete, affordable and professional service.</p>
+          <p>Currently servicing Ipswich, Logan, Brisbane and the Gold Coast.</p>
+          <a class="btn btn-large btn-primary btnService" href="contactus.html" role="button">Get a Free Quote</a>
+          <a class="btn btn-large btn-primary btnService" href="giftcards.html" role="button">Buy a Gift Card</a>
+        </div>
+      </div>
+    </div>
+    <div class="item"> <img src="public/images/mowingCarousel.jpg" style="width:100%" data-src="" alt="Second    slide">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>Cleaning | Mowing | Gardening</h1>
+          <p>We provide a complete, affordable and professional service.</p>
+          <p>Currently servicing Ipswich, Logan, Brisbane and the Gold Coast.</p>
+          <a class="btn btn-large btn-primary btnService" href="contactus.html" role="button">Get a Free Quote</a>
+          <a class="btn btn-large btn-primary btnService" href="giftcards.html" role="button">Buy a Gift Card</a>
+        </div>
+      </div>
+    </div>
+    <div class="item"> <img src="public/images/gardeningCarousel.jpg" style="width:100%" data-src="" alt="Third slide">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>Cleaning | Mowing | Gardening</h1>
+          <p>We provide a complete, affordable and professional service.</p>
+          <p>Currently servicing Ipswich, Logan, Brisbane and the Gold Coast.</p>
+          <a class="btn btn-large btn-primary btnService" href="contactus.html" role="button">Get a Free Quote</a>
+          <a class="btn btn-large btn-primary btnService" href="giftcards.html" role="button">Buy a Gift Card</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a> </div>
+  
+
+
+  <div class="container">
+      <div class="row">
+          <div class="col-sm-9">
+              <h1>Tired of calling multiple companies for all your domestic needs?</h1>
+              <p>Look no further! Here at MMI Domestic Services, we provide you with the <strong>complete package</strong>, both indoor and outdoor services, at an <strong>affordable price</strong> and can tailor the package to suit your needs and budget!</p>
+              <p>All our staff have validated police checks and experience in their profession. We also have full public liabilty insurance and our cleaners provide all chemicals and equipment.</p>
+              <a href="cleaning.html" class="btn btn-lg btn-primary btn-warning btn-block">Contact us for a Free Quote</a>
+          </div>
+          <div class="col-sm-3 contactPhone">
+              <div><span><i class="fa fa-phone" aria-hidden="true"></i> Call</span> <a href="tel:0466 775 053">0466 775 053</a></div>
+              <img class="mmiLogo" src="public/images/mmi-logo.png">
+          </div> 
+      </div>
+      <div class="row">
+          <h3 class="col-sm-12">Our Services include:</h3>
+          <div class="card col-sm-3">
+            <a href="cleaning.html"><img class="cardImg" width="100%" src="public/images/cleaningCard.jpg"></a>
+            <a href="cleaning.html" class="btn btn-lg btn-primary btnService btn-block">Cleaning</a>
+          </div>
+          <div class="card col-sm-3">
+            <a href="mowing.html"><img class="cardImg" width="100%" src="public/images/mowingCard.jpg"></a>
+            <a href="mowing.html" class="btn btn-lg btn-primary btnService btn-block">Mowing</a>
+          </div>
+          <div class="card col-sm-3">
+            <a href="gardening.html"><img class="cardImg" width="100%" src="public/images/gardeningCard.jpg"></a>
+            <a href="gardening.html" class="btn btn-lg btn-primary btnService btn-block">Gardening</a>
+          </div>
+          <div id="quotes" class="col-md-3 col-sm-9">
+              <div><cite>"It was lovely to come home to a sparkling clean and fresh house tonight. MMI did a fantastic job! Highly recommend." - Sherryn</cite></div><br/>
+              <div><cite>"Fabulous, I hired MMI to mow my lawn and I can only say they are lovely people and very reliable. I can only speak highly of their service done promptly and efficiently." - Yvonne</cite></div>
+          </div>
       </div>
   </div>
 
-
-    
-    <div id="services" class="container">
-      <div class="row">
-          <h3 class="col-sm-12">Our Services include:</h3>
-          <div class="col-sm-4">
-            <a href="cleaning.html"><img class="cardImg" width="100%" height="231px" src="public/images/cleaning.jpg"></a>
-            <a href="cleaning.html" class="btn btn-lg btn-primary btnService btn-block">Cleaning</a>
-          </div>
-          <div class="col-sm-4">
-            <a href="mowing.html"><img class="cardImg" width="100%" height="231px" src="public/images/mowing.jpg"></a>
-            <a href="mowing.html" class="btn btn-lg btn-primary btnService btn-block">Mowing</a>
-          </div>
-          <div class="col-sm-4">
-            <a href="gardening.html"><img class="cardImg" width="100%" height="231px" src="public/images/gardening.jpg"></a>
-            <a href="gardening.html" class="btn btn-lg btn-primary btnService btn-block">Gardening</a>
-          </div>
-      </div>
+  <div class="container-fluid" id="footer">
+    <div class="row">
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-12">
+                        <ul class="row">
+                            <li><a href="cleaning.html">Cleaning Services</a></li>
+                            <li><a href="mowing.html">Mowing Services</a></li>
+                            <li><a href="cleaning.html">Gardening Services</a></li>
+                            <li><a href="giftcards.html">Gift cards</a></li>
+                            <li><a href="theteam.html">Meet the team</a></li>
+                            <li><a href="contactus.html">Contact us</a></li>
+                        </ul>   
+                    </div> 
+                    <div class="col-md-12">
+                        <p><i class="fa fa-copyright" aria-hidden="true"></i> MMI Domestic Services 2017</p>  
+                    </div>
+            </div>
+        </div>
     </div>
+  </div>
 
+  <script src="public/scripts/carousel.js"></script>
     </body>
 </html>

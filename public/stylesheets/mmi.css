@@ -1,88 +1,141 @@
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 
-#brandLogoNav {
-    max-height:50px;
-    display:inline-block;
+
+/* GENERAL
+    -------------------------------------------------- */
+
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+h1  {
+    color:#175ca5;
+    font-size: 2.5em;
+    font-weight: regular;
+    margin-bottom:25px;
+}
+p {
+    color:#1e1e1e;
+    font-size:1.2em;
+    margin-bottom:20px;
+}
+
+/* NAVBAR (MENU)
+    -------------------------------------------------- */
+
 .navbar-default {
-    background:#fff;
     padding:5px 0;
+    background-color: #fff;
+    border-top: solid 1px #999;
+    border-bottom: solid 1px #999;
+}
+.navbar-header {
+    display:inline-block;
+    float:right;
 }
 .navbar-default .navbar-nav>li>a {
     color:#1e1e1e;
+    font-size:1.2em;
+    vertical-align: middle;
+    line-height:45px;
+} 
+
+
+/* LOGOS
+    -------------------------------------------------- */
+
+#brandLogoNav {
+    max-height:75px;
+    display:inline-block;
+    float:left;
+    margin-right:50px;
 }
-#estimate {
-    background:#175ca5;
-    padding-bottom:15px;
-}
-#welcome {
-    font-size:3em;
-    padding:10px 0 20px 0;
-    color:#fff;
-}
-#services {
-    padding-bottom:40px;
+.mmiLogo {
+    max-width: 230px;
 }
 
-.mainJumbotron {
-    border-bottom:1px solid #999;
-    overflow-none;
-    background: url('../images/gardenPanoFaded2.png') no-repeat top center;
-    height:550px;
+
+/* CONTACT DETAILS
+    -------------------------------------------------- */
+
+.contactPhone {
+    font-size:2em;
+    vertical-align:middle;
+    color:#175ca5;
+    text-align: center;
 }
-.jumbotron-fluid {
-    border-bottom:1px solid #999;
-    overflow-none;
+.contactPhone div {
+    margin:22px 0;
 }
-.jumbotron-fluid .container {
-    width:100%;
-}
-.noPadding {
-    padding:0;
-}
-.form-group .form-control {
+.contactPhone span, .contactOther span {
     color:#1e1e1e;
 }
+.contactPhone a, .contactOther a {
+    color:#175ca5;
+}
+.contactOther {
+    font-size:2em;
+    line-height:1.8em;
+    vertical-align:middle;
+    color:#175ca5;
+    text-align: center;
+    margin:30px 0;
+}
+
+
+/* BUTTONS
+    -------------------------------------------------- */
+
 .btn {
     border-radius:0px;
     border:none;
 }
 .btnSubmit {
-    background:#ccc;
-    opacity: 0.9;
-    filter: alpha(opacity=90); /* For IE8 and earlier */
+    background:rgba(255,255,255,0.8);
 }
 .btnSubmit:hover {
-    opacity: 1.0;
-    filter: alpha(opacity=100); /* For IE8 and earlier */
+    background:rgba(255,255,255,0.4);
 }
 .btnService {
-    background:#175ca5;
     color:#fff;
-    opacity: 1.0;
-    filter: alpha(opacity=100); /* For IE8 and earlier */
+    background:rgba(23,92,165,1);
     margin-bottom: 30px;
 }
 .btnService:hover {
-    opacity: 0.9;
-    filter: alpha(opacity=90); /* For IE8 and earlier */
+    background:rgba(23,92,165,0.9);
 }
-h1  {
-    color:#175ca5;
+.btn-primary, .btn-primary:hover, 
+.btn-success, .btn-success:hover, 
+.btn-warning, .btn-warning:hover {
+    margin-bottom:5px;
 }
-h1.indexTitle  {
-    color:#fff;
-    float:right;
-    font-size: 3.5em;
-    color:#fff;
+.btn-primary {
+    background:rgba(80,131,185,1);
+}
+.btn-primary:hover {
+    background:rgba(80,131,185,0.8);
+}
+.btn-success {
+    background:rgba(61,128,95,1);
+}
+.btn-success:hover {
+    background:rgba(61,128,95,0.8);
+}
+.btn-warning {
+    background:rgba(188,93,36,1);
+}
+.btn-warning:hover {
+    background:rgba(188,93,36,0.8);
 }
 
-.indexPhone {
-    font-size:1.5em;
-    line-height:50px;
-    padding-right:50px;
-    color:#175ca5;
-    display:inline-block;
+
+/* SERVICE CARDS (HOME PG)
+    -------------------------------------------------- */
+
+#services {
+    padding:0 30px 40px 0;
+}
+.card {
+    margin-bottom:25px;
 }
 .cardImg {
     border: solid 1px #ccc!important;
@@ -93,8 +146,85 @@ h1.indexTitle  {
     opacity: 0.5;
     filter: alpha(opacity=50); /* For IE8 and earlier */
 }
-.navbar-default {
-    border-bottom: solid 1px #999;
+
+
+/* CUSTOMER QUOTES
+    -------------------------------------------------- */
+
+#quotes {
+    text-align:center;
+    margin-bottom:20px;
+}
+
+
+/* SERVICE TABS AND CONTENT
+    -------------------------------------------------- */
+
+.tabbable {
+    margin-top:14px;
+}
+.tabbable, .tab-content {
+    margin-bottom: 40px;
+}
+.tab-content h5 {
+  color: #175ca5;
+}
+.tab-content ul {
+  list-style: none;
+  padding: 0 0 0 20px;
+}
+.tab-content li {
+  padding-left: 1.5em;
+}
+.tab-content li:before {
+  content: "\f00c"; /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  font-size: 1.2em;
+  display: inline-block;
+  color: #175ca5;
+  margin-left: -1.5em; /* same as padding-left set on li */
+  width: 1.5em; /* same as padding-left set on li */
+}
+.tab-content li.cost:before {
+  content: "\f155"; /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  font-size: 1.2em
+  display: inline-block;
+  color: #175ca5;
+  margin-left: -1.5em; /* same as padding-left set on li */
+  width: 1.5em; /* same as padding-left set on li */
+}
+
+
+/* CONTACT US FORM (GET A FREE QUOTE)
+    -------------------------------------------------- */
+
+#quote {
+    padding-bottom:15px;
+}
+#quote form span {
+    color:#fff;
+    font-size:1.6em;
+    line-height: 1em;
+}
+.detailsForm, .cleaningForm, .mowingForm, .gardeningForm {
+    padding-top:30px;
+    padding-bottom:15px;
+}
+.detailsForm {
+    background:rgba(153,153,153,1);
+}
+.cleaningForm {
+    background:rgba(23,92,165,1);
+}
+.mowingForm {
+    background:rgba(188,93,36,1);
+}
+.gardeningForm {
+    background:rgba(61,128,95,1);
+}
+.form-group .form-control {
+    color:#1e1e1e;
 }
 .formControlAsBG {
     background-color:#fff;
@@ -107,24 +237,72 @@ h1.indexTitle  {
     transition:border-color ease-in-out.15s, box-shadow ease-in-out.15s;
     margin:0;
 }
-.form-control::-webkit-input-placeholder { color: #1e1e1e; }
-.form-control:-moz-placeholder { color: #1e1e1e; }
-.form-control::-moz-placeholder { color: #1e1e1e; }
+.form-control::-webkit-input-placeholder, 
+.form-control:-moz-placeholder, 
+.form-control::-moz-placeholder { color: #1e1e1e; }, 
 .form-control:-ms-input-placeholder { color: #1e1e1e; }
+ { color: #1e1e1e; }
 
-/* *********************************** CUSTOM CHECKBOXES *************************************** */
+
+/* Custom Checkboxes */
 
 input[type=checkbox] { display:none; } /* to hide the checkbox itself */
 input[type=checkbox] + label:before {
   font-family: FontAwesome;
   display: inline-block;
 }
-
-input[type=checkbox] + label:before { content: "\f096"; color:#175ca5; font-weight:bold; font-size:1.3em; vertical-align:middle;} /* unchecked icon */
+input[type=checkbox] + label:before { content: "\f096"; color:#3d805f; font-weight:bold; font-size:1.3em; vertical-align:middle;} /* unchecked icon */
 input[type=checkbox] + label:before { letter-spacing: 10px; } /* space between checkbox and label */
-
-input[type=checkbox]:checked + label:before { content: "\f046"; color:#175ca5; font-weight:bold; font-size:1.3em; vertical-align: middle;} /* checked icon */
+input[type=checkbox]:checked + label:before { content: "\f046"; color:#3d805f; font-weight:bold; font-size:1.3em; vertical-align: middle;} /* checked icon */
 input[type=checkbox]:checked + label:before { letter-spacing: 7.5px; } /* allow space for check mark */
-input[type=checkbox]:checked + label { color:#175ca5; font-weight:bold; }
+input[type=checkbox]:checked + label { color:#3d805f; font-weight:bold; }
 
-/* ********************************************************************************************* */
+
+/* GIFT CARDS
+    -------------------------------------------------- */
+
+#giftCards {
+    margin-top:30px;
+}
+#giftCards input[type=image], #giftCards h3 {
+    display:inline-block;
+}
+#giftCards input[type=image] {
+    float:right;
+    margin:20px 20px 0 0;
+}
+.giftCard {
+    max-width:350px;
+}
+.addToCart {
+    background-image: https://www.paypalobjects.com/webstatic/en_US/i/btn/png/btn_addtocart_120x26.png;
+}
+
+
+/* FOOTER
+    -------------------------------------------------- */
+
+#footer {
+    background:rgba(30,30,30,0.8); 
+}
+#footer ul {
+    padding:20px 10px 10px 10px;
+    list-style: none;
+}
+#footer li {
+    display:inline-block;
+    padding-right:30px;    
+}
+#footer li a, #footer p {
+    color:#fff;
+    font-size:1em;
+}
+#footer p {
+    font-size:0.9em;
+}
+#footer ul, #footer p {
+    text-align: center;
+}
+
+
+
