@@ -266,8 +266,11 @@ input[type=checkbox]:checked + label { color:#3d805f; font-weight:bold; }
 #giftCards input[type=image], #giftCards h3 {
     display:inline-block;
 }
+#giftCards h3 {
+    float:left;
+}
 #giftCards input[type=image] {
-    float:right;
+    float:left;
     margin:20px 20px 0 0;
 }
 .giftCardContainer {
