@@ -42,4 +42,7 @@
     .contactPhone {
         display:none;
     } 
+    #quote form span {
+        font-size:1.4em;
+    }  
 }
