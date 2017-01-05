@@ -14,6 +14,9 @@
     #quote form span {
         font-size:1.3em;
     }
+    #giftCards input[type=image] {
+        margin:20px 110px 0 0;
+    }
 }
 @media only screen and (max-width : 979px) {
     .contactPhone {
@@ -24,6 +27,9 @@
     }
     #quote form span {
         font-size:1.3em;
+    }
+    #giftCards input[type=image] {
+        margin:20px 110px 0 0;
     }
 }
 @media only screen and (min-width : 768px) and (max-width: 768px) { /* iPad Portrait specific */
@@ -47,9 +53,6 @@
     }
     .btnGiftCard {
         margin-top:30px;
-    }
-    #giftCards input[type=image] {
-    margin:20px 110px 0 0;
     }
 }
 @media (max-width: 767px) {
