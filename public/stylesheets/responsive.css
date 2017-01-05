@@ -33,7 +33,7 @@
     .contactOther {
         width:66.66%;
     }
-    .contactOther .mmiLogo {
+    .contactOther img.mmiLogo {
         display:none;
     }
     #quote form span {
