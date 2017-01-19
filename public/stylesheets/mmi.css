@@ -1,4 +1,5 @@
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
 
 
 /* GENERAL
@@ -15,8 +16,9 @@ h1  {
 }
 p {
     color:#1e1e1e;
-    font-size:1.2em;
+    font-size:1.1em;
     margin-bottom:20px;
+    font-family:"Quicksand", "Helvetica Neue",Helvetica,Arial,sans-serif;;
 }
 
 /* NAVBAR (MENU)
@@ -268,6 +270,7 @@ input[type=checkbox]:checked + label { color:#3d805f; font-weight:bold; }
 }
 #giftCards h3 {
     float:left;
+    margin-left:20px;
 }
 #giftCards input[type=image] {
     float:left;
@@ -281,6 +284,12 @@ input[type=checkbox]:checked + label { color:#3d805f; font-weight:bold; }
 }
 .addToCart {
     background-image: https://www.paypalobjects.com/webstatic/en_US/i/btn/png/btn_addtocart_120x26.png;
+}
+
+/* MEET THE TEAM CARDS
+    -------------------------------------------------- */
+.card {
+    margin-bottom:40px;
 }
 
 
